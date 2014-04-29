@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.aghstrategies.uscounties" type="module">
+  <file>uscounties</file>
+  <name>US County Loader</name>
+  <description>Loads counties of the United States</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Andrew Hunt</author>
+    <email>andrew@aghstrategies.com</email>
+  </maintainer>
+  <releaseDate>2014-04-26</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments>Use this extension to load counties for the United States.  After installation, this extension does nothing (and can even be disabled).</comments>
+  <civix>
+    <namespace>CRM/Uscounties</namespace>
+  </civix>
+</extension>
