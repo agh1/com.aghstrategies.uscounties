@@ -1,7 +1,5 @@
 <?php
 
-require_once 'uscounties.civix.php';
-
 /**
  * Return a list of all the counties
  */

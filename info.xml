@@ -8,14 +8,15 @@
     <author>Andrew Hunt</author>
     <email>andrew@aghstrategies.com</email>
   </maintainer>
-  <releaseDate>2014-04-26</releaseDate>
+  <releaseDate>2014-04-29</releaseDate>
   <version>1.0</version>
-  <develStage>alpha</develStage>
+  <develStage>stable</develStage>
+  <urls>
+	  <url desc="documentation">http://aghstrategies.com/counties</url>
+  </urls>
   <compatibility>
     <ver>4.4</ver>
+    <ver>4.5</ver>
   </compatibility>
   <comments>Use this extension to load counties for the United States.  After installation, this extension does nothing (and can even be disabled).</comments>
-  <civix>
-    <namespace>CRM/Uscounties</namespace>
-  </civix>
 </extension>
