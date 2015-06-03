@@ -24,4 +24,8 @@ You can write your own extension for your country's counties or county equivalen
     edit the info.xml file to give it a new name, description, file name for the main extension file (instead of uscounties), and maintainer; and
     replace the array of counties in your renamed uscounties.php with your country's states and counties.
 
+Changelog
+---------
 
+1.1 - Compatibility with 4.6 and 4.7 (no changes to code or counties)
+1.0 - Initial version
