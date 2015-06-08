@@ -18,7 +18,6 @@
     <ver>4.4</ver>
     <ver>4.5</ver>
     <ver>4.6</ver>
-    <ver>4.7</ver>
   </compatibility>
   <comments>Use this extension to load counties for the United States.  After installation, this extension does nothing (and can even be disabled).</comments>
 </extension>
