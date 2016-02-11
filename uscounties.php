@@ -5,8 +5,9 @@
  */
 
 function uscounties_listcounties() {
+  $countryIso = 'US';
   $counties = array(
-    1000 => array( // Alabama
+    'Alabama' => array(
       'Autauga',
       'Baldwin',
       'Barbour',
@@ -75,7 +76,7 @@ function uscounties_listcounties() {
       'Wilcox',
       'Winston',
     ),
-    1001 => array( // Alaska
+    'Alaska' => array(
       'Aleutians East',
       'Aleutians West',
       'Anchorage',
@@ -104,7 +105,7 @@ function uscounties_listcounties() {
       'Yakutat',
       'Yukon-Koyukuk',
     ),
-    1002 => array( // Arizona
+    'Arizona' => array(
       'Apache',
       'Cochise',
       'Coconino',
@@ -121,7 +122,7 @@ function uscounties_listcounties() {
       'Yavapai',
       'Yuma',
     ),
-    1003 => array( // Arkansas
+    'Arkansas' => array(
       'Arkansas',
       'Ashley',
       'Baxter',
@@ -198,7 +199,7 @@ function uscounties_listcounties() {
       'Woodruff',
       'Yell',
     ),
-    1004 => array( // California
+    'California' => array(
       'Alameda',
       'Alpine',
       'Amador',
@@ -258,7 +259,7 @@ function uscounties_listcounties() {
       'Yolo',
       'Yuba',
     ),
-    1005 => array( // Colorado
+    'Colorado' => array(
       'Adams',
       'Alamosa',
       'Arapahoe',
@@ -323,7 +324,7 @@ function uscounties_listcounties() {
       'Weld',
       'Yuma',
     ),
-    1006 => array( // Connecticut
+    'Connecticut' => array(
       'Fairfield',
       'Hartford',
       'Litchfield',
@@ -333,12 +334,12 @@ function uscounties_listcounties() {
       'Tolland',
       'Windham',
     ),
-    1007 => array( // Delaware
+    'Delaware' => array(
       'Kent',
       'New Castle',
       'Sussex',
     ),
-    1008 => array( // Florida
+    'Florida' => array(
       'Alachua',
       'Baker',
       'Bay',
@@ -407,7 +408,7 @@ function uscounties_listcounties() {
       'Walton',
       'Washington',
     ),
-    1009 => array( // Georgia
+    'Georgia' => array(
       'Appling',
       'Atkinson',
       'Bacon',
@@ -568,14 +569,14 @@ function uscounties_listcounties() {
       'Wilkinson',
       'Worth',
     ),
-    1010 => array( // Hawaii
+    'Hawaii' => array(
       'Hawaii',
       'Honolulu',
       'Kalawao',
       'Kauai',
       'Maui',
     ),
-    1011 => array( // Idaho
+    'Idaho' => array(
       'Ada',
       'Adams',
       'Bannock',
@@ -621,7 +622,7 @@ function uscounties_listcounties() {
       'Valley',
       'Washington',
     ),
-    1012 => array( // Illinois
+    'Illinois' => array(
       'Adams',
       'Alexander',
       'Bond',
@@ -725,7 +726,7 @@ function uscounties_listcounties() {
       'Winnebago',
       'Woodford',
     ),
-    1013 => array( // Indiana
+    'Indiana' => array(
       'Adams',
       'Allen',
       'Bartholomew',
@@ -819,7 +820,7 @@ function uscounties_listcounties() {
       'White',
       'Whitley',
     ),
-    1014 => array( // Iowa
+    'Iowa' => array(
       'Adair',
       'Adams',
       'Allamakee',
@@ -920,7 +921,7 @@ function uscounties_listcounties() {
       'Worth',
       'Wright',
     ),
-    1015 => array( // Kansas
+    'Kansas' => array(
       'Allen',
       'Anderson',
       'Atchison',
@@ -1027,7 +1028,7 @@ function uscounties_listcounties() {
       'Woodson',
       'Wyandotte',
     ),
-    1016 => array( // Kentucky
+    'Kentucky' => array(
       'Adair',
       'Allen',
       'Anderson',
@@ -1149,7 +1150,7 @@ function uscounties_listcounties() {
       'Wolfe',
       'Woodford',
     ),
-    1017 => array( // Louisiana
+    'Louisiana' => array(
       'Acadia',
       'Allen',
       'Ascension',
@@ -1215,7 +1216,7 @@ function uscounties_listcounties() {
       'West Feliciana',
       'Winn',
     ),
-    1018 => array( // Maine
+    'Maine' => array(
       'Androscoggin',
       'Aroostook',
       'Cumberland',
@@ -1233,7 +1234,7 @@ function uscounties_listcounties() {
       'Washington',
       'York',
     ),
-    1019 => array( // Maryland
+    'Maryland' => array(
       'Allegany',
       'Anne Arundel',
       'Baltimore',
@@ -1259,7 +1260,7 @@ function uscounties_listcounties() {
       'Wicomico',
       'Worcester',
     ),
-    1020 => array( // Massachusetts
+    'Massachusetts' => array(
       'Barnstable',
       'Berkshire',
       'Bristol',
@@ -1275,7 +1276,7 @@ function uscounties_listcounties() {
       'Suffolk',
       'Worcester',
     ),
-    1021 => array( // Michigan
+    'Michigan' => array(
       'Alcona',
       'Alger',
       'Allegan',
@@ -1360,7 +1361,7 @@ function uscounties_listcounties() {
       'Wayne',
       'Wexford',
     ),
-    1022 => array( // Minnesota
+    'Minnesota' => array(
       'Aitkin',
       'Anoka',
       'Becker',
@@ -1449,7 +1450,7 @@ function uscounties_listcounties() {
       'Wright',
       'Yellow Medicine',
     ),
-    1023 => array( // Mississippi
+    'Mississippi' => array(
       'Adams',
       'Alcorn',
       'Amite',
@@ -1533,7 +1534,7 @@ function uscounties_listcounties() {
       'Yalobusha',
       'Yazoo',
     ),
-    1024 => array( // Missouri
+    'Missouri' => array(
       'Adair',
       'Andrew',
       'Atchison',
@@ -1650,7 +1651,7 @@ function uscounties_listcounties() {
       'Worth',
       'Wright',
     ),
-    1025 => array( // Montana
+    'Montana' => array(
       'Beaverhead',
       'Big Horn',
       'Blaine',
@@ -1709,7 +1710,7 @@ function uscounties_listcounties() {
       'Yellowstone',
       'Yellowstone National Park',
     ),
-    1026 => array( // Nebraska
+    'Nebraska' => array(
       'Adams',
       'Antelope',
       'Arthur',
@@ -1804,7 +1805,7 @@ function uscounties_listcounties() {
       'Wheeler',
       'York',
     ),
-    1027 => array( // Nevada
+    'Nevada' => array(
       'Carson City city',
       'Churchill',
       'Clark',
@@ -1823,7 +1824,7 @@ function uscounties_listcounties() {
       'Washoe',
       'White Pine',
     ),
-    1028 => array( // New Hampshire
+    'New Hampshire' => array(
       'Belknap',
       'Carroll',
       'Cheshire',
@@ -1835,7 +1836,7 @@ function uscounties_listcounties() {
       'Strafford',
       'Sullivan',
     ),
-    1029 => array( // New Jersey
+    'New Jersey' => array(
       'Atlantic',
       'Bergen',
       'Burlington',
@@ -1858,7 +1859,7 @@ function uscounties_listcounties() {
       'Union',
       'Warren',
     ),
-    1030 => array( // New Mexico
+    'New Mexico' => array(
       'Bernalillo',
       'Catron',
       'Chaves',
@@ -1893,7 +1894,7 @@ function uscounties_listcounties() {
       'Union',
       'Valencia',
     ),
-    1031 => array( // New York
+    'New York' => array(
       'Albany',
       'Allegany',
       'Bronx',
@@ -1957,7 +1958,7 @@ function uscounties_listcounties() {
       'Wyoming',
       'Yates',
     ),
-    1032 => array( // North Carolina
+    'North Carolina' => array(
       'Alamance',
       'Alexander',
       'Alleghany',
@@ -2059,7 +2060,7 @@ function uscounties_listcounties() {
       'Yadkin',
       'Yancey',
     ),
-    1033 => array( // North Dakota
+    'North Dakota' => array(
       'Adams',
       'Barnes',
       'Benson',
@@ -2114,7 +2115,7 @@ function uscounties_listcounties() {
       'Wells',
       'Williams',
     ),
-    1034 => array( // Ohio
+    'Ohio' => array(
       'Adams',
       'Allen',
       'Ashland',
@@ -2204,7 +2205,7 @@ function uscounties_listcounties() {
       'Wood',
       'Wyandot',
     ),
-    1035 => array( // Oklahoma
+    'Oklahoma' => array(
       'Adair',
       'Alfalfa',
       'Atoka',
@@ -2283,7 +2284,7 @@ function uscounties_listcounties() {
       'Woods',
       'Woodward',
     ),
-    1036 => array( // Oregon
+    'Oregon' => array(
       'Baker',
       'Benton',
       'Clackamas',
@@ -2321,7 +2322,7 @@ function uscounties_listcounties() {
       'Wheeler',
       'Yamhill',
     ),
-    1037 => array( // Pennsylvania
+    'Pennsylvania' => array(
       'Adams',
       'Allegheny',
       'Armstrong',
@@ -2390,14 +2391,14 @@ function uscounties_listcounties() {
       'Wyoming',
       'York',
     ),
-    1038 => array( // Rhode Island
+    'Rhode Island' => array(
       'Bristol',
       'Kent',
       'Newport',
       'Providence',
       'Washington',
     ),
-    1039 => array( // South Carolina
+    'South Carolina' => array(
       'Abbeville',
       'Aiken',
       'Allendale',
@@ -2445,7 +2446,7 @@ function uscounties_listcounties() {
       'Williamsburg',
       'York',
     ),
-    1040 => array( // South Dakota
+    'South Dakota' => array(
       'Aurora',
       'Beadle',
       'Bennett',
@@ -2513,7 +2514,7 @@ function uscounties_listcounties() {
       'Yankton',
       'Ziebach',
     ),
-    1041 => array( // Tennessee
+    'Tennessee' => array(
       'Anderson',
       'Bedford',
       'Benton',
@@ -2610,7 +2611,7 @@ function uscounties_listcounties() {
       'Williamson',
       'Wilson',
     ),
-    1042 => array( // Texas
+    'Texas' => array(
       'Anderson',
       'Andrews',
       'Angelina',
@@ -2866,7 +2867,7 @@ function uscounties_listcounties() {
       'Zapata',
       'Zavala',
     ),
-    1043 => array( // Utah
+    'Utah' => array(
       'Beaver',
       'Box Elder',
       'Cache',
@@ -2897,7 +2898,7 @@ function uscounties_listcounties() {
       'Wayne',
       'Weber',
     ),
-    1044 => array( // Vermont
+    'Vermont' => array(
       'Addison',
       'Bennington',
       'Caledonia',
@@ -2913,7 +2914,7 @@ function uscounties_listcounties() {
       'Windham',
       'Windsor',
     ),
-    1045 => array( // Virginia
+    'Virginia' => array(
       'Accomack',
       'Albemarle',
       'Alleghany',
@@ -3051,7 +3052,7 @@ function uscounties_listcounties() {
       'Wythe',
       'York',
     ),
-    1046 => array( // Washington
+    'Washington' => array(
       'Adams',
       'Asotin',
       'Benton',
@@ -3092,7 +3093,7 @@ function uscounties_listcounties() {
       'Whitman',
       'Yakima',
     ),
-    1047 => array( // West Virginia
+    'West Virginia' => array(
       'Barbour',
       'Berkeley',
       'Boone',
@@ -3149,7 +3150,7 @@ function uscounties_listcounties() {
       'Wood',
       'Wyoming',
     ),
-    1048 => array( // Wisconsin
+    'Wisconsin' => array(
       'Adams',
       'Ashland',
       'Barron',
@@ -3223,7 +3224,7 @@ function uscounties_listcounties() {
       'Winnebago',
       'Wood',
     ),
-    1049 => array( // Wyoming
+    'Wyoming' => array(
       'Albany',
       'Big Horn',
       'Campbell',
@@ -3249,7 +3250,7 @@ function uscounties_listcounties() {
       'Weston',
     ),
   );
-  
+
   return $counties;
 }
 
@@ -3278,13 +3279,13 @@ function uscounties_loadcounties() {
 
     // identify counties needing to be loaded
     $add = array_diff($state, $existing);
-    
+
     $insert = array();
     foreach ($add as $county) {
       $countye = $dao->escape($county);
       $insert[] = "('$countye', $id)";
     }
-    
+
     // put it into queries of 50 counties each
     for($i = 0; $i < count($insert); $i = $i+50) {
       $inserts = array_slice($insert, $i, 50);
