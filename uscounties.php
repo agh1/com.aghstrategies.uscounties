@@ -3261,11 +3261,6 @@ function uscounties_loadcounties() {
   $allCounties = uscounties_listcounties();
 
   foreach ($allCounties as $countryIso => $counties) {
-    static $dao = NULL;
-    if (!$dao) {
-      $dao = new CRM_Core_DAO();
-    }
-
     // Get array of states.
     try {
       $result = civicrm_api3('Country', 'getsingle', [
@@ -3311,7 +3306,7 @@ function uscounties_loadcounties() {
 
       $insert = [];
       foreach ($add as $county) {
-        $countye = $dao->escape($county);
+        $countye = CRM_Core_DAO::escapeString($county);
         $insert[] = "('$countye', $id)";
       }
 
