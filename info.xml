@@ -8,7 +8,7 @@
     <author>Andrew Hunt</author>
     <email>andrew@aghstrategies.com</email>
   </maintainer>
-  <releaseDate>2015-06-03</releaseDate>
+  <releaseDate>2019-07-03</releaseDate>
   <version>2.0</version>
   <develStage>stable</develStage>
   <urls>
@@ -16,7 +16,7 @@
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <compatibility>
-    <ver>4.6</ver>
+    <ver>5.7</ver>
   </compatibility>
   <comments>Use this extension to load counties for the United States.  After installation, this extension does nothing (and can even be disabled).</comments>
 </extension>
