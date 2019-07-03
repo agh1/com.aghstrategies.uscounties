@@ -92,6 +92,8 @@ been consistent for many countries' states and provinces.
 Counties have been moved to a separate JSON file for ease of reading the
 extension and ease of applying the extension to other countries.
 
+The county list has also been updated to reflect changes since it was compiled.
+
 ### Version 1.1
 
 Compatibility with 4.6 and 4.7 (no changes to code or counties)
