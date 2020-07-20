@@ -3,7 +3,7 @@ repo_url: https://github.com/agh1/com.aghstrategies.uscounties
 theme: 
   name: material
 
-pages:
+nav:
 - Home: index.md
 
 markdown_extensions:
