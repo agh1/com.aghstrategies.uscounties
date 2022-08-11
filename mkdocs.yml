@@ -1,8 +1,9 @@
-site_name: Your Extension Name
+site_name: US Counties
 repo_url: https://github.com/agh1/com.aghstrategies.uscounties
-theme: material
+theme: 
+  name: material
 
-pages:
+nav:
 - Home: index.md
 
 markdown_extensions:
@@ -10,7 +11,8 @@ markdown_extensions:
   - admonition
   - def_list
   - codehilite
-  - toc(permalink=true)
+  - toc:
+      permalink: true
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.tilde
