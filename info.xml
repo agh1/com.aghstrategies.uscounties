@@ -12,11 +12,21 @@
   <version>2.1</version>
   <develStage>stable</develStage>
   <urls>
-	  <url desc="documentation">http://aghstrategies.com/counties</url>
+    <url desc="documentation">http://aghstrategies.com/counties</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <compatibility>
     <ver>5.51</ver>
   </compatibility>
   <comments>Use this extension to load counties for the United States.  After installation, this extension does nothing (and can even be disabled).</comments>
+  <civix>
+    <namespace>CRM/Uscounties</namespace>
+    <format>25.10.2</format>
+  </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <mixins>
+    <mixin>scan-classes@1.0.0</mixin>
+  </mixins>
 </extension>
