@@ -23,7 +23,7 @@ function uscounties_loadcounties() {
         ],
       ]);
     }
-    catch (CiviCRM_API3_Exception $e) {
+    catch (CRM_Core_Exception $e) {
       $error = $e->getMessage();
       CRM_Core_Error::debug_log_message(ts('API Error: %1', [
         'domain' => 'com.aghstrategies.uscounties',
