@@ -97,6 +97,6 @@ function uscounties_civicrm_enable() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
-function uscounties_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
+function uscounties_civicrm_upgrade($op, ?CRM_Queue_Queue $queue = NULL) {
   uscounties_loadcounties();
 }
